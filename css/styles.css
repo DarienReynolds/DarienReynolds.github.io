@@ -1,0 +1,67 @@
+/*import of the font*/
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&family=Roboto+Slab:wght@600&family=Silkscreen&display=swap');
+
+/* high level html tags */
+
+body{
+    font-family: 'Rajdhani', sans-serif;
+    font-size: small;
+    line-height: 1.5em;
+    margin-top: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: 'Abril Fatface', cursive;
+}
+
+.obi-wan-img{
+    width: 100%;    
+}
+.lightsaber{
+    width: 25%;
+    height: 25%;
+    float: left;
+    padding: 1em;
+    border: 1px solid black;
+    margin: 1em;
+}
+
+/*page layout elements*/
+
+.main-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.col-left{
+    width: 45%;
+    float: left;
+    padding: 1em;
+    text-align: justify;
+}
+
+.col-right{
+    width: 45%;
+    float: right;
+    padding: 1em;
+    text-align: justify;
+    clear: bottom;
+}
+
+
